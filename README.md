@@ -6,23 +6,6 @@ It does however enforce a new mfa session for every connect- verb
 
 When I start my powershell ISE environment I see this:
 
-Running Profile...
-----------------------
-Checking for Modules...
-Az (Azure) Module found - Version 4.2.0
-AzureAD Module found - Version 2.0.2.76
-MSOL Module found - Version 1.1.183.17
-Exchange V2 Module found - Version 1.0.1
-Teams Module found - Version 1.0.24
-SkypeOnlineConnector Module not found.
-Some Teams functionality is still controlled via the skype module
-It is old and shit so needs to be installed from:
-https://www.microsoft.com/en-us/download/details.aspx?id=39366
-Then imported with:Import-Module SkypeOnlineConnector
-----------------------
-Notes
-To Update all Modules run Update-AllModules
-EXO V2 uses Connect-ExchangeOnline and the Get-EXO styleprefix
 
 This just checks the installed version, if its run on a machine without the module installed it prompts to install it, auto-escalating a powershell script to do so.
 
