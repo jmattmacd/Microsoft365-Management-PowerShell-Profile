@@ -1,4 +1,4 @@
-# Microsoft365 Management = PowerShell Profile
+# Microsoft 365 Management = PowerShell Profile
 Profile for ISE to manange 365
 I have my environment set up with a profile which checks the module installation and update version on every load.
 
