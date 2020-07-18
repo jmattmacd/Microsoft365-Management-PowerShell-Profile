@@ -4,10 +4,7 @@ I have my environment set up with a profile which checks the module installation
 
 It does however enforce a new mfa session for every connect- verb
 
-When I start my powershell ISE environment I see this:
-
-
-This just checks the installed version, if its run on a machine without the module installed it prompts to install it, auto-escalating a powershell script to do so.
+If its run on a machine without the module installed it prompts to install it, auto-escalating a powershell script to do so.
 
 I find it hugely useful, in order to use it you can just open Powershell ISE and run “notepad $profile” to open your current profile in notepad then copy the contents below in and save it. restart PowershellISE and it will run that script at every log in.
 
